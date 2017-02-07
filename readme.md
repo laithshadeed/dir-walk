@@ -3,6 +3,7 @@
 [![Linux Build status](https://travis-ci.org/laithshadeed/dir-walk.svg?branch=master)](https://travis-ci.org/laithshadeed/dir-walk)
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/3yt6ngq4o9hvkgbo?svg=true)](https://ci.appveyor.com/project/laithshadeed/dir-walk)
 [![Test coverage](https://coveralls.io/repos/github/laithshadeed/dir-walk/badge.svg?branch=master)](https://coveralls.io/github/laithshadeed/dir-walk?branch=master)
+[![npm version](https://badge.fury.io/js/dir-walk.svg)](https://badge.fury.io/js/dir-walk)
 
  Walk a directory tree recursively with different implementations:
  - Sync Breadth-First Traversal
