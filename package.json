@@ -10,7 +10,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "./node_modules/.bin/eslint *.js && ./node_modules/.bin/ava test.js"
+    "test": "./node_modules/.bin/ava test.js",
+    "lint": "./node_modules/.bin/eslint *.js"
   },
   "files": [
     "index.js",
