@@ -10,8 +10,9 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "./node_modules/.bin/ava test.js",
-    "lint": "./node_modules/.bin/eslint *.js"
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/ava test.js",
+    "lint": "./node_modules/.bin/eslint *.js",
+    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls"
   },
   "files": [
     "index.js",
@@ -29,8 +30,10 @@
   ],
   "devDependencies": {
     "ava": "^0.18.1",
+    "coveralls": "^2.11.16",
     "eslint": "^3.15.0",
-    "eslint-config-google": "^0.7.1"
+    "eslint-config-google": "^0.7.1",
+    "nyc": "^10.1.2"
   },
   "dependencies": {}
 }
