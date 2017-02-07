@@ -1,0 +1,27 @@
+{
+  "name": "dir-walk",
+  "version": "0.0.1",
+  "description": "Walk a directory tree async or non-async",
+  "main": "index.js",
+  "repository": "https://github.com/laithshadeed/dir-walk",
+  "author": "Laith Shadeed",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/eslint *.js && ./node_modules/.bin/ava test.js"
+  },
+  "keywords": [
+    "walk",
+    "traverse",
+    "directory",
+    "files"
+  ],
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "eslint": "^3.15.0",
+    "eslint-config-google": "^0.7.1"
+  },
+  "dependencies": {}
+}
