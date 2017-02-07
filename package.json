@@ -1,6 +1,6 @@
 {
   "name": "dir-walk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Walk a directory tree async or non-async",
   "main": "index.js",
   "repository": "https://github.com/laithshadeed/dir-walk",
@@ -12,6 +12,14 @@
   "scripts": {
     "test": "./node_modules/.bin/eslint *.js && ./node_modules/.bin/ava test.js"
   },
+  "files": [
+    "index.js",
+    "async-await-impl.js",
+    "callback-impl.js",
+    "generator-impl.js",
+    "promise-impl.js",
+    "sync-impl.js"
+  ],
   "keywords": [
     "walk",
     "traverse",
