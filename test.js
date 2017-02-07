@@ -18,6 +18,15 @@ var output = {
   errors: []
 };
 
+if (process.platform === 'win32') {
+  var types = ['dirnames', 'filenames'];
+  for (var i = 0; i < types.length; i +=1 ) {
+    for(var j = 0; j < output[types[i]].length; j +=1) {
+      output[types[i]][j] = output[types[i]][j].replace(/\//g, '\\');
+    }
+  }
+}
+
 test.cb('callback-impl', function(t) {
   m('fixtures', function(result) {
     result.dirnames.sort();
