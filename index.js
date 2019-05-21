@@ -2,7 +2,7 @@ var ver = process.version,
   walk;
 
 // TOOD: do semver comparison based on when the future introduced by node as well as the its
-// performance. Check out http://node.green && https://fhinkel.github.io/six-speed/
+// performance. Check out http://node.green && https://github.com/kpdecker/six-speed
 // v8 official performance benchmarks: https://v8project.blogspot.nl/2017/02/v8-release-57.html
 // v8 Performance plan 'ES2015 and beyond performance plan'
 // https://docs.google.com/document/d/1EA9EbfnydAmmU_lM8R_uEMQ-U_v4l9zulePSBkeYWmY
